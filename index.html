@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Example</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins";
+        }
+        .navbar{
+            width: 100vw;
+            height: 13vh;
+            background-color: rgb(0, 67, 115);
+            display: flex;
+            color: white;
+        }
+        .navbar-brand{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 100px;
+        }
+        .navbar-item{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            scroll-behavior: smooth;
+            display: inline;
+            margin: 30px;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        .home-item{
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .hero{
+            width: 100vw;
+            height: 90vh;
+            background-color: rgb(6, 63, 103);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .area-title{
+            width: 35%;
+            padding: 100px;
+        }
+        .text-title{
+            font-size: 2.5em;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+        .text-tagline{
+            font-size: medium;
+            margin-top: 30px;
+            color: white;
+        }
+        .button-explore{
+            margin-top: 55px;
+        }
+        .btn-explore{
+            background-color: rgb(255, 255, 255);
+            padding: 20px 22px;
+            border-radius: 12px;
+            color: rgb(0, 67, 115);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        .img-brand img{
+            border-radius: 30px;
+        }
+        .area-image{
+            display: flex;
+            justify-content: center;
+            width: 55%;
+
+
+
+        }
+        .hero2{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(0, 75, 128);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .area-title2{
+            width: 25%;
+            padding: 100px;
+            color: white;
+        }
+        .text-tagline2{
+            font-size: medium;
+            margin-top: 30px;
+            color: white;
+        }
+        .button-explore2{
+            margin-top: 55px;
+        }
+        .btn-explore2{
+            background-color: white;
+            padding: 20px 22px;
+            border-radius: 12px;
+            color: rgb(0, 67, 115);
+            text-decoration: none ;
+            font-weight: bolder;
+        }
+        .img-brand2 img{
+            border-radius: 30px;
+        }
+        .area-image2{
+            display: flex;
+            justify-content: center;
+            width: 55%;
+        }
+
+
+
+        .hero3{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(6, 63, 103);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-player{
+            width: 100vw;
+            height: 100vh;
+            margin-top: 70px;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            font-size: 2.5em;
+        }
+        .room-memphis{
+            margin-top: 20px;
+            width: 80vw;
+            height: 42vw;
+            padding: 100px;
+            background-color: rgb(6, 63, 103);
+            border-radius: 10px;
+            border: 5px solid rgb(255, 255, 255);
+            padding: 10px;
+        }
+        .border1{
+            width: 9vw;
+            height: 20vh;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 5px;
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        .frame1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero4{
+            width: 100vw;
+            height: 120vh;
+            background-color: rgb(0, 75, 128);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">
+            <img src="logo2.png" alt="" style="width: 90px; height: 80px;margin: 2%;">
+            <h3>Memphis Grizzlies</h3>
+        </div>
+        <div class="navbar-item">
+            <div class="list-item">
+                <ul>
+                    <li><a class="home-item" style="color: rgb(6, 63, 103);" href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#player">Player</a></li>
+                    <li><a href="#arena">Arena</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="area-title">
+            <div class="text-title">
+                <p>Memphish Grizzlies <br>Official Website</p>
+            </div>
+            <div class="text-tagline">
+                <p>The Memphis Grizzlies are an American basketball team that are members of the National Basketball Association. The team is based in Memphis, Tennessee. Founded in 1995. The club plays its home games on the FedExForum since 2004.</p>
+            </div>
+            <div class="button-explore">
+                <a href="modern-form.html" class="btn-explore">Join The Team?</a>
+            </div>
+        </div>
+        <div class="area-image">
+            <div class="img-brand">
+                <img src="https://cdn.nba.com/teams/uploads/sites/1610612763/2023/06/20230629_MikeCheck_2023TeamPhoto_1920x1080.jpg" width="550px" height="350px">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="hero2" id="about">
+        <div class="area-image2">
+            <div class="img-brand2">
+                <img src="https://cdn.nba.com/teams/uploads/sites/1610612763/2023/05/GCM_20230502_MikeCheck_JaLukeDesmond_1920x1080.jpg" width="550px" height="350px">
+            </div>
+        </div>
+        <div class="area-title2">
+            <div class="text-title">
+                <p>About Us</p>
+            </div>
+            <div class="text-tagline2">
+                <p>When it was first formed, the team was located in the city of Vancouver, Canada under the name Vancouver Grizzlies as part of the NBA's expansion in the 1995-96 season. After the end of the 2000-01 season, the Grizzlies moved to the city of Memphis.
+                    Their uniforms are blue and yellow. This team has never won a division and league title in the NBA.</p>
+            </div>
+            <div class="button-explore2">
+                <a href="https://www.nba.com/grizzlies" class="btn-explore">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="hero3" id="player">
+        <div class="text-player">
+            <p>Player of Memphis<p>
+        </div>
+        <div class="room-memphis">
+            <div class="frame1">
+                <div class="border1">
+                    <img src="https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fbealestreetbears.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1384988079.jpeg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Steven Adam</p>
+                </div>
+                <div class="border1">
+                    <img src="https://m.basketnews.com/image-377302-crop700x700.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Santi Aldama</p>
+                </div>
+                <div class="border1">
+                    <img src="https://cdn.nba.com/manage/2023/07/bane-iso-1568x882.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Desmond Bane</p>
+                </div>
+                <div class="border1">
+                    <img src="https://pbs.twimg.com/media/F0JbaeAaQAEGCQ6?format=jpg&name=4096x4096" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Tarik Biberovic</p>
+                </div>
+                <div class="border1">
+                    <img src="https://cdn.celebsagewiki.com/images/39/brandon-clarke.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Brandon Clarke</p>
+                </div>
+                <div class="border1">
+                    <img src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk1NDg3NzgwNzI0Mjg3MDQ1/jaren-jackson.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Jaren Jackson</p>
+                </div>
+                <div class="border1">
+                    <img src="https://yebscore-cms.s3.us-east-2.amazonaws.com/2022/11/313804053_2296868030474602_8544021433875108694_n.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">John Konchar</p>
+                </div>
+            </div>
+            <div class="frame1">
+                <div class="border1">
+                    <img src="https://pbs.twimg.com/media/FtTZxaOaIAARP3p.jpg:large" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Kenneth Lofton</p>
+                </div>
+                <div class="border1">
+                    <img src="https://i.guim.co.uk/img/media/bcc1791a40221c915a9187349b94ae425cb3acac/0_130_5000_3002/master/5000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=28f1c5e51166e40fc4e124117a5c3b54" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Ja Morant</p>
+                </div>
+                <div class="border1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmPCdDAlqd6FeT__y7d-d2SnKfzu0F-tH5aw&usqp=CAU" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">	David Roddy</p>
+                </div>
+                <div class="border1">
+                    <img src="https://media.bleacherreport.com/image/upload/x_0,y_433,w_1800,h_1197,c_crop/c_fill,g_faces,w_3800,h_2000,q_95/v1688427271/i2051gjnlztxxdqaaifr.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Derrick Rose</p>
+                </div>
+                <div class="border1">
+                    <img src="https://firstsportz.com/wp-content/uploads/2023/06/Marcus-Smart-in-a-Grizzles-Uniformedited-1024x768.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Marcus Smart</p>
+                </div>
+                <div class="border1">
+                    <img src="https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2023-04/GettyImages-1483423391%20%281%29.jpg?h=920929c4&itok=chQaQclT" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">	Xavier Tillman</p>
+                </div>
+                <div class="border1">
+                    <img src="https://cdn.vox-cdn.com/thumbor/owVrO9QhvcwpgkuRc3MnPvkMy3c=/0x0:4874x3249/1200x800/filters:focal(1985x281:2763x1059)/cdn.vox-cdn.com/uploads/chorus_image/image/72431730/1251145620.0.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">	Isaiah Todd</p>
+                </div>
+            </div>
+            <div class="frame1">
+                <div class="border1">
+                    <img src="data:image/jpeg;base64,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" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">	Ziaire Williams</p>
+                </div>
+                <div class="border1">
+                    <img src="https://thememphian.blob.core.windows.net/sized/83860_960" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Vince Williams</p>
+                </div>
+                <div class="border1">
+                    <img src="https://www.ligaolahraga.com/storage/images/news/2022/04/16/lamelo-ball-bakal-ganti-nomor-punggung-pada-musim-depan.jpg" alt="" width="132px" height="130px" style="align-items: center; border-radius: 5px;">
+                    <p style="text-align: center; color: rgb(6, 63, 103); font-weight: bold;">Lamelo Ball</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="hero4" id="arena">
+        <div class="text-player">
+            <p>Our Stadium<p>
+        </div>
+    </div>     
+</body>
+</html>
